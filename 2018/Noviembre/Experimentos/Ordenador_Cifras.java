@@ -6,12 +6,17 @@ public class Ordenador_Cifras {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Scanner scan=new Scanner(System.in);
-        System.out.println("Introduzca números para ordenarlos de manera ascendente (por ejemplo: «2, 8, 3, 6, 7, 3»):\n");
+Scanner scan=new Scanner(System.in);
+System.out.println("Introduzca números para ordenarlos de manera ascendente (por ejemplo: «2, 8, 3, 6, 7, 3»):\n");
 
-        int datosIntroducidos=scan.nextInt();
+int datosIntroducidos=scan.nextInt();
 
-        int[]array=new int[1000];
+int[]array=new int[1000];
+if(datosIntroducidos!=0){
+            do{
+               for (int i=0; i<array.length; i++){
+ 
+                  array[i]=datosIntroducidos; }
 	}
 
 }
