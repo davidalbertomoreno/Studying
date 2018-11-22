@@ -16,7 +16,7 @@ public class Calculadora {
 		a = sc1.nextFloat();
 		System.out.println("\nIngrese la segunda cifra:\n");
 		b = sc2.nextFloat();
-		System.out.println("\nIngrese la operación (+, -, x, /, P,  R; donde P y R equivalen a potencia y raíz, respectivamente):\n");
+		System.out.println("\nIngrese la operación (+, -, x, /, P, R; donde P y R equivalen a potencia y raíz, respectivamente):\n");
 		z = sc3.nextLine();
 		switch(z) {
 				case "+":
