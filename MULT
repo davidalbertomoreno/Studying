@@ -1,0 +1,36 @@
+package CALC;
+public class MULT {
+	public static double M1 (double a, double b) {
+		double c = 0;
+		String z = new String (""+b);
+		while((b - (int)b) != 0) {
+			z = String.format("%.7g%n", M1(b, 10));
+			a = a/10;
+			b = Double.valueOf(z.replace(",", "."));
+		}
+		if (b >= 0){
+			c = M2 (a, b);
+			return c;
+		}
+		else{
+			b = -b;
+			if(a >= 0){
+				c = M2 (a, b);
+				return -c;
+			}
+			else{
+				a = -a;
+				c = M2 (a, b);
+				return c;
+			}
+		}
+	}
+
+	private static double M2 (double a, double b){
+		double c = 0;
+		for(int i=0; i<b; i++){
+				c = c+a;
+		}
+		return c;
+	}
+}
