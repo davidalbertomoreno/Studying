@@ -1,0 +1,12 @@
+package CALC;
+import java.util.Scanner;
+public class ¨MAIN {
+	private static Scanner sc;
+	public static void main(String[] args) {
+		sc = new Scanner(System.in);
+		double a = sc.nextDouble();
+		double b = sc.nextDouble();
+		System.out.println(W_W.M1(a, b));
+	}
+
+}
